@@ -6,3 +6,49 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ header {
+     height: 50px;
+     padding: 1em;
+     background: lightgray;
+
+
+ }
+
+ .nav {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .claim {
+    height: 500px;
+    width: 800px;
+    background-size: 800px 400px;
+    background-repeat: no-repeat;
+     background-image: url("/HTML-CSS-Challenges/HTML-CSS-Portfolio-Project/images/christopher-gower-m_HRfLhgABo-unsplash.jpg");
+     
+ }
+
+ .about-me {
+
+ }
+
+ .projects {
+
+ }
+
+ .card-container {
+     display: flex;
+     justify-content: space-between;
+
+ }
+
+ .card {
+     width: 150px;
+     border: solid 1px black
+
+ }
+
+ .card-image {
+     height: 100px;
+ }
