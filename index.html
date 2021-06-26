@@ -3,16 +3,18 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Blog</title>
     <link href="//fonts.googleapis.com/css?family=Roboto:400,500,300" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 </head>
 
 <body>
-    <header class="header">
-        <nav class="nav">
+   <header class="header">
+        <nav class="navbar navbar-dark bg-dark">
             <div> <span class="name">Matías Andrés</span></div>
             <div class="nav-links-container">
                 <a href="#projects">Proyectos</a>
@@ -23,62 +25,86 @@
     </header>
 
     <main>
-        <section class="claim">
-            <div class="titulo">
-                <h1>Matías Andrés Rossi</h1>
-            </div>
-        </section>
-        <section class="about-me">
-            <h2>About me</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis maxime quod quaerat consequuntur, omnis nam voluptatibus perferendis ad deleniti molestias repellat id rerum magni ut consectetur nemo. Quod, animi nam!</p>
-        </section>
-        <section class="projects" id="projects">
-            <h2>Projects</h2>
-            <div class="card-container">
-                <div class="card">
-                    <a href=""><img class="card-image" src="/images/christopher-gower-m_HRfLhgABo-unsplash.jpg" alt=""></a>
-                    <h3>First project</h3>
-                    <p>this was my first project</p>
-                    <a href="" target="_blank">see code</a>
+        <div class="container">
+            <section class="hero">
+                <div class="row">
+                    <div class="col-6">
+                        <h1>Matías Andrés Rossi</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis maxime quod quaerat
+                            consequuntur,
+                            omnis nam voluptatibus perferendis ad deleniti molestias repellat id rerum magni ut
+                            consectetur nemo.
+                            Quod, animi nam!</p>
+                    </div>
+                    <div class="col-6">
+                    
+                        <img src="/images/IMG_20190910_195655.jpg" alt="profile picture">
+                    </div>
                 </div>
-                <div class="card">
-                    <a href=""><img class="card-image" src="/images/christopher-gower-m_HRfLhgABo-unsplash.jpg" alt=""></a>
-                    <h3>First project</h3>
-                    <p>this was my first project</p>
-                    <a href="" target="_blank">see code</a>
+            </section>
+
+            <section class="projects bg-dark">
+                <h2>Projects</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <a href=""><img class="card-image" src="/images/christopher-gower-m_HRfLhgABo-unsplash.jpg"
+                                alt=""></a>
+                        <h3>First project</h3>
+                        <p>this was my first project</p>
+                        <a href="" target="_blank">see code</a>
+                    </div>
+                    <div class="card">
+                        <a href=""><img class="card-image" src="/images/christopher-gower-m_HRfLhgABo-unsplash.jpg"
+                                alt=""></a>
+                        <h3>First project</h3>
+                        <p>this was my first project</p>
+                        <a href="" target="_blank">see code</a>
+                    </div>
+                    <div class="card">
+                        <a href=""><img class="card-image" src="/images/christopher-gower-m_HRfLhgABo-unsplash.jpg"
+                                alt=""></a>
+                        <h3>First project</h3>
+                        <p>this was my first project</p>
+                        <a href="" target="_blank">see code</a>
+                    </div>
+                    <div class="card">
+                        <a href=""><img class="card-image" src="/images/christopher-gower-m_HRfLhgABo-unsplash.jpg"
+                                alt=""></a>
+                        <h3>First project</h3>
+                        <p>this was my first project</p>
+                        <a href="" target="_blank">see code</a>
+                    </div>
                 </div>
-                <div class="card">
-                    <a href=""><img class="card-image" src="/images/christopher-gower-m_HRfLhgABo-unsplash.jpg" alt=""></a>
-                    <h3>First project</h3>
-                    <p>this was my first project</p>
-                    <a href="" target="_blank">see code</a>
-                </div>
-                <div class="card">
-                    <a href=""><img class="card-image" src="/images/christopher-gower-m_HRfLhgABo-unsplash.jpg" alt=""></a>
-                    <h3>First project</h3>
-                    <p>this was my first project</p>
-                    <a href="" target="_blank">see code</a>
-                </div>
-            </div>
-        </section>
+            </section>
+        </div>
 
 
     </main>
 
     <footer>
-        <section class="contact" id="contact">
-            <a href="#">LinkedIn</a>
-            <a href="#">GitHub</a>
-            <a href="#">Email</a>
+        <section class="contact">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="#">LinkedIn</a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#">GitHub</a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#">Email</a>
+                </div>
+            </div>
 
 
         </section>
 
     </footer>
 
-
+    <!-- SCRIPT-->
     <script src="https://kit.fontawesome.com/5214a55c82.js" crossorigin="anonymous"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

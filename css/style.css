@@ -8,10 +8,7 @@
  */
 
 header {
-    height: 50px;
-    padding: 1em;
-    background: lightgray;
-    
+
 }
 
  a {
@@ -30,30 +27,31 @@ h2 {
     text-align: center;
 }
 
-.nav {
+/*.nav {
     display: flex;
     justify-content: space-between;
+}*/
+
+.navbar {
+    color: white;
 }
 
-.claim {
+.hero {
     display: flex;
     height: 400px;
     width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url("/images/christopher-gower-m_HRfLhgABo-unsplash.jpg");
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.titulo {
-    font-size: 3rem;
+.hero img {
+    height: 200px;
 }
 
-.about-me {}
-
-.projects {}
+.projects {
+    color: white;
+}
 
 .card-container {
     display: flex;
@@ -70,7 +68,7 @@ h2 {
 }
 
 .card-image {
-    height: 100px;
+    width: 100%;
 }
 footer {
     background: lightgray;
@@ -80,7 +78,7 @@ footer {
 
 
 @media screen and (min-width: 570px) {
-    .claim {
+    .hero {
         height: 500px;
     }
     .card-container {
